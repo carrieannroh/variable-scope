@@ -1,9 +1,10 @@
 'use strict'
 
 const myOuterFruit = "apple";
+const myInnerFruit = "pear";
 
 function printFruitNames() {
-  const myInnerFruit = "pear";
+  
   console.log('a fruit defined in function scope:', myInnerFruit);
   console.log('a fruit defined in global scope:', myOuterFruit);
 }
